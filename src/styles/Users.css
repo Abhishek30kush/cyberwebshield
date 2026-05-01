@@ -1,0 +1,131 @@
+.users-page {
+  animation: fadeIn 0.4s ease;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: 400px;
+}
+
+.search-bar input {
+  background: none;
+  border: none;
+  color: var(--text);
+  flex: 1;
+  font-size: 14px;
+}
+
+.users-table-container {
+  margin-top: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.users-table th {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.users-table td {
+  padding: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.user-profile-cell {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-profile-cell img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+}
+
+.user-name {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.user-role {
+  font-size: 12px;
+  color: var(--primary);
+  text-transform: capitalize;
+}
+
+.user-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.enrolled-count {
+  background: rgba(10, 132, 255, 0.1);
+  color: var(--secondary);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.joined-date {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.status-badge.active {
+  background: rgba(0, 255, 136, 0.1);
+  color: var(--primary);
+}
+
+.no-results {
+  padding: 40px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.loader {
+  padding: 40px;
+  text-align: center;
+  color: var(--primary);
+  font-weight: 600;
+}
